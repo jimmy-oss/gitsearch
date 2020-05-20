@@ -1,0 +1,54 @@
+.container-fluid {
+    margin: 150px auto;
+}
+
+#searchDiv {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px 20px 30px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper input { 
+    text-indent: 3rem;
+}
+.wrapper #searchIcon { 
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  max-width: 30px;
+}
+
+#searchBar{
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    height: 42px;
+}
+
+#searchBar:hover, #searchBar:focus {
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+#errorDiv {
+    margin-top: 3px;
+    border: none;
+    color: red;
+    background: none;
+}
+
+#submitBtn {
+    display: block;
+    margin: 10px auto 20px auto;
+    border-radius: 5px;
+}
